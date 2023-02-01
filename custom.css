@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+}
+.custom-article .btn-buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}
+.custom-article .btn-buy button{
+    box-sizing: border-box;
+    width: 202px;
+    height: 48px;
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    margin-bottom: 15px;
+}
+#modal{
+    background:#d9d9d976;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;  
+}
+#modal #modal-element{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 671px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#modal #modal-element #close{
+    display: flex;
+    align-self: flex-end;
+    margin: 25px 26px 0 0;
+}
+#modal #modal-element #close img{
+    cursor: pointer;
+    padding: 5px;
+}
+
+#modal #modal-element #m-title{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 39px;
+    text-align: center;
+    margin-bottom: 65px;
+    margin-top: 110px;
+}
+
+#modal #modal-element #m-content{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 65px;
+
+}
+
+#modal #modal-element #m-button button{
+    box-sizing: border-box;
+    width: 253px;
+    height: 48px;
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 120px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F6F5FB;
+}
